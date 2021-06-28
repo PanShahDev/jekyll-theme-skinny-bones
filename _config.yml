@@ -3,7 +3,7 @@
 title: "ArtArcanely"
 description: "Variety of arts designed by Arcane."
 logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: https://i.ibb.co/S6JGSdL/Untitled-design-3.png
 locale: en
 url: https://artarcanely.com
 feed:
