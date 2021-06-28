@@ -7,36 +7,26 @@ title: "Welcome"
 <div class="tiles">
 {% for post in site.posts %}
 	{% include post-grid.html %}
- 
-{% endfor %}
-</div><!-- /.tiles -->
-
-<div id="js-menu-screen" class="menu-screen"></div>
-
-
-    
-    <div class="page-lead" style="background-image:url(https://mmistakes.github.io/jekyll-theme-skinny-bones/images/wood-texture-1600x800.jpg)">
+   <div class="page-lead" style="background-image:url(https://mmistakes.github.io/jekyll-theme-skinny-bones/images/wood-texture-1600x800.jpg)">
       <div class="wrap page-lead-content">
         <h1>Skinny Bones</h1>
         <h2>Jump start your Jekyll site with something thin and light.</h2>
         <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn-inverse">Start Using Skinny Bones</a> &nbsp; or &nbsp; <a href="https://github.com/mmistakes/jekyll-theme-skinny-bones" class="btn-inverse">View on GitHub</a>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
+{% endfor %}
+</div>
+<!-- /.tiles -->
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    
+  
     
 
-    <div id="page-wrapper">
-      <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
 
 
-      <div id="main" role="main">
-        <div class="wrap">
-          <div class="page-title">
-            <h1></h1>
-            
-          </div>
-          <div class="archive-wrap">
-            <div class="page-content">
-              <div class="tiles">
 
 <div class="tile">
   <h2 class="post-title">Built for Jekyll 3</h2>
