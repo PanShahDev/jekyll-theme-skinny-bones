@@ -4,6 +4,11 @@ permalink: /
 title: "Welcome"
 ---
 
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div>
 
 <!-- /.tiles -->
 
@@ -19,7 +24,6 @@ title: "Welcome"
 
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
