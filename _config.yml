@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: "ArtArcanely"
-description: "Variety of arts designed by Arcane."
+title: "Pan Shahbazi"
+description: "WIP"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: https://i.ibb.co/S6JGSdL/Untitled-design-3.png
 locale: en
-url: https://artarcanely.com
+url: https://panshahbazi.com
 feed:
   path: atom.xml
 
