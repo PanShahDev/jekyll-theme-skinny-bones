@@ -1,6 +1,13 @@
 # Site wide configuration
 
-
+title: "Pan Shahbazi"
+description: "WIP"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: https://i.ibb.co/S6JGSdL/Untitled-design-3.png
+locale: en
+url: https://panshahbazi.com
+feed:
+  path: atom.xml
 
 # Jekyll configuration
 
