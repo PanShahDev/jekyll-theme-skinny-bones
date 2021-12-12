@@ -1,18 +1,3 @@
----
-layout: home
-permalink: /
-title: "Welcome"
----
-
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div>
-
-<!-- /.tiles -->
-
-
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
@@ -69,33 +54,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John Doe.</h1>
-    <p>Photographer and Web Designer.</p>
-    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Pan Shahbazi.</h1>
+    <p></p>
+    <img src="https://i.ibb.co/VYRwK5v/Untitled-design-5.png" alt="boy" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>Welcome. My name is Pan Shahbazi (short for Paniz Shahbazian); an Iranian-American, LA-based jack-of-all-trades. I currently work as the DOO of a company that brings new life to the world of hearing protection and music-related tech. I recently worked on an app ("Ear Scanner") that was released to the app store, which enables users to get a full scan of their ears at home (basically, ear molds without all the goop and having to travel to an audiologist). Feel free to check it out here.</p><p>
+
+I'm also full-stack web-developer, with an extensive knowledge in UI/UX design. I'm fascinated by the possibilities of AI and what quantum computing can bring to our future. Follow me on my socials for more (linked at the bottom of this page).
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
+   
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">11+</span><br>
@@ -115,11 +87,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       </div>
     </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
+ 
     
     <!-- Grid for pricing tables -->
+    <!--
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
@@ -154,29 +125,31 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
           </li>
         </ul>
-      </div>
+      </div>   -->
     <!-- End Grid/Pricing tables -->
     </div>
+ 
     
     <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+  <!--  <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
     <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
     <p>John Doe saved us from a web disaster.</p><br>
     
     <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
+    <p>No one is better than John Doe.</p> -->
   <!-- End About Section -->
   </div>
   
   <!-- Portfolio Section -->
+  <!--
   <div class="w3-padding-64 w3-content" id="photos">
     <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:200px" class="w3-opacity"> -->
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
+    <!--<div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="/w3images/wedding.jpg" style="width:100%">
         <img src="/w3images/rocks.jpg" style="width:100%">
@@ -188,12 +161,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <img src="/w3images/chef.jpg" style="width:100%">
         <img src="/w3images/wedding.jpg" style="width:100%">
         <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
+      </div> -->
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
   </div>
-
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
@@ -224,11 +196,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+   
   <!-- End footer -->
   </footer>
 
