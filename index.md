@@ -11,7 +11,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('/w3images/profile_girl.jpg');
+  background-image: url('https://serving.photos.photobox.com/796881921f80b97eac99f0c029975165eb53233ffe58d1f0fe9ac99417f8da41458fd680.jpg');
   min-height: 100%;
 }
 </style>
@@ -44,8 +44,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Pan Shahbazi</b></h1>
     <p>Iranian-American, LA Based, DOO & Dev</p>
-    <img src="https://serving.photos.photobox.com/70113356dd3def81f7e7ee7f5573086827c39cd947a1d5ad0bff4f63a826cc1e76659020.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="https://serving.photos.photobox.com/70113356dd3def81f7e7ee7f5573086827c39cd947a1d5ad0bff4f63a826cc1e76659020.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <img src="https://serving.photos.photobox.com/796881921f80b97eac99f0c029975165eb53233ffe58d1f0fe9ac99417f8da41458fd680.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://serving.photos.photobox.com/796881921f80b97eac99f0c029975165eb53233ffe58d1f0fe9ac99417f8da41458fd680.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
    
   </header>
 
@@ -91,7 +91,7 @@ I'm also full-stack web-developer, with an extensive knowledge in UI/UX design. 
     <a href="https://facebook.com/PanShahbazi"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
      <a href="https://instagram.com/PanShahbazi"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   <a href="https://twitter.com/PanShahbazi">   <i class="fa fa-twitter w3-hover-opacity"></i></a>
-   <a href="https://linkedin.com/PanShahbazi">  <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+   <a href="https://linkedin.com/Pan-Shahbazi">  <i class="fa fa-linkedin w3-hover-opacity"></i></a>
    
   <!-- End footer -->
   </footer>
