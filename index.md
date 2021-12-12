@@ -44,8 +44,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Pan Shahbazi</b></h1>
     <p>Iranian-American, LA Based, DOO & Dev</p>
-    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <img src="https://serving.photos.photobox.com/70113356dd3def81f7e7ee7f5573086827c39cd947a1d5ad0bff4f63a826cc1e76659020.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://serving.photos.photobox.com/70113356dd3def81f7e7ee7f5573086827c39cd947a1d5ad0bff4f63a826cc1e76659020.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
    
   </header>
 
