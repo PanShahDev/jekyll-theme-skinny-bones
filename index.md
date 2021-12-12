@@ -67,25 +67,7 @@ body {font-family: "Lato", sans-serif}
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="https://i.ibb.co/TccJGmS/1.png" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-     
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="https://i.ibb.co/WGKfQhC/2.png" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="https://i.ibb.co/wdGpcnS/3.png" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-   
-    </div>
-  </div>
+ 
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
@@ -189,13 +171,9 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-envelope" style="width:30px"> </i> Email: me@panshahbazi.com<br>
       </div>
       <div class="w3-col m6">
-       <form action=”mailto:me@panshahbazi.com” method=”POST”
-
-
-enctype=”multipart/form-data”
-
-
-name=”EmailForm”>
+       <form action="mailto:me@panshahbazi.com" method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -223,43 +201,9 @@ name=”EmailForm”>
   <a href="https://twitter.com/PanShahbazi"><i class="fa fa-twitter w3-hover-opacity"></i></a>
  <a href="www.linkedin.com/in/pan-shahbazi
 "> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
-</footer>
 
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 </html>
