@@ -33,11 +33,11 @@
 
 <!-- Image Header -->
 
-  <img src="https://i.ibb.co/9G3WQbZ/pan-1.png">
+  <img src="https://serving.photos.photobox.com/010393455ff5cb4f6366044b0286df7e8e1e39d8fea4194c961a795511fadfdc236e7dca.jpg">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
 
   </div>
-</div>
+
 
 <!-- Modal -->
 <div id="id01" class="w3-modal">
@@ -82,7 +82,7 @@ I'm also full-stack web-developer, with an extensive knowledge in UI/UX design. 
   <a class="w3-button w3-large w3-teal" href="https://twitter.com/PanShahbazi" title="Twitter"><i class="fa fa-twitter"></i></a> Twitter<p>
   <a class="w3-button w3-large w3-teal" href="https://instagram.com/PanShahbazi" title="IG"><i class="fa fa-instagram"></i></a> Instagram<p>
   <a class="w3-button w3-large w3-teal w3-hide-small" href="https://linkedin.com/PanShahbazi" title="Linkedin"><i class="fa fa-linkedin"></i></a> LinkedIn
-    </div>
+   
     <div class="w3-col m7">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
       <div class="w3-section">      
