@@ -8,9 +8,9 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 .bgimg {
-  background-position: ;
+ 
   background-repeat: no-repeat;
-  background-size: cover;
+  
   background-image: url('https://serving.photos.photobox.com/796881921f80b97eac99f0c029975165eb53233ffe58d1f0fe9ac99417f8da41458fd680.jpg');
   min-height: 100%;
 }
