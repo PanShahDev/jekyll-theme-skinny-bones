@@ -6,6 +6,48 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body id="myPage">
 
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image:  url("https://serving.photos.photobox.com/010393455ff5cb4f6366044b0286df7e8e1e39d8fea4194c961a795511fadfdc236e7dca.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+
 
 
 <!-- Navbar -->
@@ -33,7 +75,10 @@
 
 <!-- Image Header -->
 
-  <img src="https://serving.photos.photobox.com/010393455ff5cb4f6366044b0286df7e8e1e39d8fea4194c961a795511fadfdc236e7dca.jpg">
+ 
+<div class="hero-image">
+
+</div>
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
 
   </div>
